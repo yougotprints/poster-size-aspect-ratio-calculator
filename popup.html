@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poster Size Calculator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="eyebrow">YOUGOTPRINTS TOOL</div>
+      <h1>Poster Size Calculator</h1>
+      <p>Check aspect ratio and common poster size compatibility.</p>
+    </header>
+
+    <label class="upload" for="imageInput">
+      <span class="upload-title">Choose an image</span>
+      <span class="upload-subtitle">JPG, PNG, WEBP or GIF</span>
+      <input id="imageInput" type="file" accept="image/*">
+    </label>
+
+    <section id="results" class="results hidden" aria-live="polite">
+      <div class="summary">
+        <div class="summary-card">
+          <span class="label">Image</span>
+          <strong id="dimensions">—</strong>
+        </div>
+        <div class="summary-card">
+          <span class="label">Aspect ratio</span>
+          <strong id="aspectRatio">—</strong>
+        </div>
+        <div class="summary-card full">
+          <span class="label">Maximum print size at 300 DPI</span>
+          <strong id="printSize">—</strong>
+        </div>
+      </div>
+
+      <h2>Poster size compatibility</h2>
+      <div id="compatibility" class="compatibility"></div>
+    </section>
+
+    <footer>
+      <a href="https://yougotprints.com" target="_blank" rel="noopener noreferrer">
+        Explore wall art at YouGotPrints
+      </a>
+    </footer>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

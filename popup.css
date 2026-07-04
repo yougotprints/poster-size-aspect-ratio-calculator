@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 380px;
+  background: #f7f7f4;
+  color: #161616;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  padding: 18px;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+.eyebrow {
+  display: inline-block;
+  padding: 5px 7px;
+  margin-bottom: 9px;
+  background: #ffdd00;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #5f5f5f;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.upload {
+  display: block;
+  padding: 18px;
+  border: 2px dashed #b8b8b0;
+  border-radius: 12px;
+  background: #fff;
+  cursor: pointer;
+  text-align: center;
+  transition: border-color .15s ease, transform .15s ease;
+}
+
+.upload:hover {
+  border-color: #161616;
+  transform: translateY(-1px);
+}
+
+.upload-title {
+  display: block;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.upload-subtitle {
+  display: block;
+  margin-top: 4px;
+  color: #767676;
+  font-size: 12px;
+}
+
+.upload input {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.results {
+  margin-top: 16px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.summary-card {
+  min-width: 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.summary-card.full {
+  grid-column: 1 / -1;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #767676;
+  font-size: 11px;
+}
+
+.summary-card strong {
+  display: block;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+h2 {
+  margin: 18px 0 8px;
+  font-size: 16px;
+}
+
+.compatibility {
+  display: grid;
+  gap: 7px;
+}
+
+.size-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.size-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status {
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.exact,
+.good {
+  color: #137333;
+}
+
+.crop {
+  color: #a33a00;
+}
+
+footer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+footer a {
+  color: #161616;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #ffdd00;
+  text-underline-offset: 3px;
+}
