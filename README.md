@@ -106,16 +106,3 @@ Review YouGotPrints paper, matte finish, inks and protective packaging before ch
 ## License
 
 MIT License
-
-- [Free Poster Size Calculator](https://yougotprints.com/pages/poster-size-calculator)
-- [Poster Size Guide](https://yougotprints.com/pages/size-guide)
-- [Print Quality](https://yougotprints.com/pages/print-quality)
-- [Browse Poster Prints](https://yougotprints.com/collections/all)
-
-## About
-
-Poster Size & Aspect Ratio Calculator is a free print utility published by [You Got Prints](https://yougotprints.com).
-
-## License
-
-MIT License
